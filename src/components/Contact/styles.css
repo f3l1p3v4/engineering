@@ -31,6 +31,7 @@
 .contact-container .content .contact-form {
   width: 50%;
   padding: 10px 40px;
+  margin-bottom: 40px;
 }
 
 .contact-container .content form {
@@ -40,8 +41,8 @@
 
 .contact-container .content form h1 {
   color: var(--_color_3);
-  font-size: 2.5rem;
-  margin-bottom: 20px;
+  font-size: 2rem;
+  margin: 40px 0px 10px;
 }
 
 .contact-container .content form input {
