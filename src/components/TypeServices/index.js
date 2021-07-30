@@ -15,9 +15,8 @@ const TypeServices = () => {
           <div className="type-service-title" style={{ textAlign: "right" }}>
             <h2>Limpeza e conservação predial</h2>
             <p>
-              Consiste em manter um ambiente limpo e organizado, que permite
-              transmitir uma imagem positiva para todos os que frequentam o
-              prédio.
+              Manter um ambiente limpo e organizado permite transmitir uma
+              imagem positiva para todos os que ferquentam sua empresa.
             </p>
             <div>
               <a href="/#contact">FAZER ORÇAMENTO</a>
@@ -35,9 +34,8 @@ const TypeServices = () => {
           <div className="type-service-title">
             <h2>Manutenção de grupos geradores</h2>
             <p>
-              O plano de manutenção preventiva é fundamental para garantir o
-              fornecimento de energia confiável, o bom funcionamento e a
-              durabilidade de seu grupo gerador.
+              O bom funcionamento de seu grupo gerador é fundamental para
+              garantir o fornecimento de energia confiável.
             </p>
             <div>
               <a href="/#contact">FAZER ORÇAMENTO</a>
