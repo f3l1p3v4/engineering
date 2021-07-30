@@ -87,19 +87,23 @@
 
 @media (max-width: 700px) {
   #contact .content {
-    display: flow-root;
+    display: grid;
     justify-content: center;
     padding: 10px;
   }
 
-  #contact .content section h1 {
-    text-align: center;
-    font-size: 2.6rem;
+  #contact .content .contact-img {
+    display: none;
   }
 
-  #contact .content section p {
+  #contact .content .contact-form {
+    width: 100%;
+    padding: 10px 5px;
+    margin-bottom: 40px;
+  }
+
+  #contact .content form h1 {
     text-align: center;
-    font-size: 1.6rem;
-    margin-bottom: 30px;
+    font-size: 2.4rem;
   }
 }
