@@ -29,7 +29,7 @@ export default function Contact() {
 
   return (
     <>
-      <div className="contact-container">
+      <div id="contact">
         <div className="content">
           <section className="contact-img"></section>
 
