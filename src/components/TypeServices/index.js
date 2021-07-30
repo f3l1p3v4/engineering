@@ -18,7 +18,7 @@ const TypeServices = () => {
               prédio.
             </p>
             <div>
-              <a href="www.google.com">FAZER ORÇAMENTO</a>
+              <a href="/#contact">FAZER ORÇAMENTO</a>
             </div>
           </div>
           <div className="type-service-img">
@@ -38,7 +38,7 @@ const TypeServices = () => {
               durabilidade de seu grupo gerador.
             </p>
             <div>
-              <a href="www.google.com">FAZER ORÇAMENTO</a>
+              <a href="/#contact">FAZER ORÇAMENTO</a>
             </div>
           </div>
         </div>
@@ -53,7 +53,7 @@ const TypeServices = () => {
               aumento da vida útil do seu equipamento.
             </p>
             <div>
-              <a href="www.google.com">FAZER ORÇAMENTO</a>
+              <a href="/#contact">FAZER ORÇAMENTO</a>
             </div>
           </div>
           <div className="type-service-img">
@@ -72,7 +72,7 @@ const TypeServices = () => {
               QDCA's, QDCC's, inversores e nobreak's.
             </p>
             <div>
-              <a href="www.google.com">FAZER ORÇAMENTO</a>
+              <a href="/#contact">FAZER ORÇAMENTO</a>
             </div>
           </div>
         </div>
@@ -85,7 +85,7 @@ const TypeServices = () => {
               hidráulica e reformar predial.
             </p>
             <div>
-              <a href="www.google.com">FAZER ORÇAMENTO</a>
+              <a href="/#contact">FAZER ORÇAMENTO</a>
             </div>
           </div>
           <div className="type-service-img">

@@ -2,30 +2,54 @@ import React, { useState } from "react";
 
 import "./styles.css";
 
-//import contactImg from "../../assets/contact.svg";
-
 export default function Contact() {
+  const [service, setService] = useState("");
   const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [assunto, setAssunto] = useState("");
 
-  /*async function handleSubmit(e) {
+  const listServices = [
+    { id: 1, name: "Selecione um serviço" },
+    { id: 2, name: "Limpeza e conservação predial" },
+    { id: 3, name: "Manutenção de grupos geradores" },
+    { id: 4, name: "Manutenção em sistemas de climatização" },
+    { id: 5, name: "Implantação e manutenção de sistemas de energia AC/DC" },
+    { id: 6, name: "Serviços de manutenção e reparos civil" }
+  ];
+
+  const handleSubmit = (e) => {
     e.preventDefault();
 
-    await api.post("/contact", {
-      name,
-      email,
-      assunto,
-      message
-    });
+    console.log(name, service);
 
-    setName("");
-    setEmail("");
-    setAssunto("");
-    setMessage("");
+    if (name === "" && (service === "" || service === "Selecione um serviço")) {
+      alert("Favor selecione um nome e tipo de serviço️ ☺️");
+      setName("");
+      setService("");
+    } else if (
+      name !== "" &&
+      (service === "" || service === "Selecione um serviço")
+    ) {
+      alert("Favor selecione um tipo de serviço️ ☺️");
+      setName("");
+      setService("");
+    } else if (
+      name === "" &&
+      (service !== "" || service !== "Selecione um serviço")
+    ) {
+      alert("Favor selecione um nome ☺️");
+      setName("");
+      setService("");
+    } else {
+      console.log(name, service);
+      let message = encodeURI(
+        `Olá, meu nome é ${name} gostaria de fazer um orçamento a respeito do serviço (${service})`
+      );
 
-    alert("Sua mensagem foi enviado com sucesso!!!");
-  }*/
+      window.location.replace(`https://wa.me/+5567992656801?text=${message}`);
+
+      setName("");
+      setService("");
+    }
+  };
 
   return (
     <>
@@ -34,25 +58,23 @@ export default function Contact() {
           <section className="contact-img"></section>
 
           <section className="contact-form">
-            <form onSubmit={""}>
+            <form onSubmit={handleSubmit}>
               <h1>Faça seu orçamento!</h1>
+              <select
+                value={service}
+                onChange={(e) => setService(e.target.value)}
+              >
+                {listServices.map((item, index) => (
+                  <option value={item.name} key={item.id}>
+                    {item.name}
+                  </option>
+                ))}
+              </select>
               <input
                 type="text"
                 placeholder="Nome*"
                 value={name}
                 onChange={(e) => setName(e.target.value)}
-              />
-              <input
-                type="email"
-                placeholder="E-mail*"
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-              />
-              <input
-                type="text"
-                placeholder="Assunto*"
-                value={assunto}
-                onChange={(e) => setAssunto(e.target.value)}
               />
 
               <button className="button" type="submit">
