@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700,800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  --_color_0: #ffffff;
+  --_color_1: #1e1d1d;
+  --_color_2: #999999;
+  --_color_4: #efff00;
+  --_color_3: #08b3f8;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-y: scroll;
+}
+
+:target {
+  scroll-margin-top: 0.8em;
+}
+
+body {
+  font: 400 14px Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background: #ffffff;
+}
+
+input,
+button,
+select,
+textarea {
+  font: 400 18px Roboto, sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+h1 {
+  font: Roboto, sans-serif;
+}
+
+h2 {
+  font: Roboto, sans-serif;
+}
+
+hr {
+  display: flex;
+  height: 0.8px;
+  width: 90%;
+  margin: 0px auto;
+  border: 0;
+  background-image: linear-gradient(to right, transparent, #444, transparent);
+}
+
+a {
+  text-decoration: none;
+}
+
+.title {
+  font-size: 3.5rem;
+  color: var(--_color_3);
+}
+
+.headroom {
+  width: 100%;
+  padding: 0.1rem 1rem;
+}
+
+.headroom--unfixed {
+  position: relative;
+  transform: translateY(0);
+  transition: all 0.4s ease;
+}
+.headroom--scrolled {
+  transition: all 0.4s ease;
+}
+.headroom--unpinned {
+  position: fixed;
+  transform: translateY(-1520%);
+  transition: all 0.4s ease;
+}
+
+.headroom--pinned {
+  position: fixed;
+  transform: translateY(0);
+  transition: all 0.4s ease;
+  background-blend-mode: multiply;
+  background-color: var(--_color_1);
+  box-shadow: 0 5px 30px rgba(0, 0, 0, 0.2);
+}
+
+.close {
+  display: none;
+}
+
+.spacer {
+  flex: 1;
+}
+
+@media (max-width: 700px) {
+  .title {
+    font-size: 3rem;
+  }
+}
