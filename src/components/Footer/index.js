@@ -16,7 +16,7 @@ class Footer extends Component {
               <div className="social-icon">
                 <ul>
                   <li>
-                    <a href="www.google.com">
+                    <a className="info-link" href="tel:+55-67-99265-6801">
                       <AiFillPhone />
                       <h3>Ligar agora </h3>
                     </a>
@@ -28,7 +28,7 @@ class Footer extends Component {
               <div className="social-icon">
                 <ul>
                   <li>
-                    <a href="www.google.com">
+                    <a href="https://wa.me/+5567992656801">
                       <IoLogoWhatsapp />
                       <h3>Enviar um Whats </h3>
                     </a>
@@ -40,7 +40,7 @@ class Footer extends Component {
               <div className="social-icon">
                 <ul>
                   <li>
-                    <a href="www.google.com">
+                    <a href="mailto:fvaldez018@gmail.com?subject=">
                       <MdEmail />
                       <h3>Enviar </h3>
                     </a>
