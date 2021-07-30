@@ -1,6 +1,8 @@
 import React from "react";
+
 import cleaning from "../../assets/services/cleaning.png";
 import generator from "../../assets/services/generator.png";
+import climate from "../../assets/services/climate.png";
 
 import "./styles.css";
 
@@ -57,7 +59,7 @@ const TypeServices = () => {
             </div>
           </div>
           <div className="type-service-img">
-            <img src={cleaning} alt="Limpeza" />
+            <img src={climate} alt="Climatização" />
           </div>
         </div>
 
