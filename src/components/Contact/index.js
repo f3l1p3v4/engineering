@@ -31,16 +31,11 @@ export default function Contact() {
     <>
       <div className="contact-container">
         <div className="content">
-          <section className="contact-img">
-            <img
-              src="https://images.unsplash.com/photo-1581091877018-dac6a371d50f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"
-              alt="Contato Imagem"
-            />
-          </section>
+          <section className="contact-img"></section>
 
           <section className="contact-form">
             <form onSubmit={""}>
-              <h1>Fale conosco!</h1>
+              <h1>Faça seu orçamento!</h1>
               <input
                 type="text"
                 placeholder="Nome*"
