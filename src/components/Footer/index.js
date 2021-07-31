@@ -40,7 +40,7 @@ class Footer extends Component {
               <div className="social-icon">
                 <ul>
                   <li>
-                    <a href="mailto:fvaldez018@gmail.com?subject=">
+                    <a href="mailto:reinaldoeng@yahoo.com?subject=">
                       <MdEmail />
                       <h3>Enviar </h3>
                     </a>
@@ -58,13 +58,13 @@ class Footer extends Component {
                 <li>
                   <p>
                     <IoLogoWhatsapp />
-                    (67) 99303-6631
+                    (67) 123456789
                   </p>
                 </li>
                 <li>
                   <p>
                     <MdEmail />
-                    teste@gmail.com
+                    reinaldoeng@yahoo.com
                   </p>
                 </li>
               </ul>
