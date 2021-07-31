@@ -47,9 +47,8 @@ const TypeServices = () => {
           <div className="type-service-title" style={{ textAlign: "right" }}>
             <h2>Manutenção em sistemas de climatização</h2>
             <p>
-              A manutenção e a higienização do seu ar-condicionado é muito
-              importante para evitar custos maiores, pois diminuem os problemas
-              e evitam desgastes desnecessários de peças, além de garantir o
+              A manutenção e a higienização de seu ar-condicionado é muito
+              importante para evitar problemas desnecessários e garantir o
               aumento da vida útil do seu equipamento.
             </p>
             <div>
@@ -82,7 +81,7 @@ const TypeServices = () => {
             <h2>Serviços de manutenção e reparos civil</h2>
             <p>
               Pintura, trocas de fechaduras, serralheria, marcenaria, elétrica,
-              hidráulica e reformar predial.
+              hidráulica e reforma predial.
             </p>
             <div>
               <a href="/#contact">FAZER ORÇAMENTO</a>
