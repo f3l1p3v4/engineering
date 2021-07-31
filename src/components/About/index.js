@@ -8,8 +8,8 @@ const About = () => (
       <div className="about-profile">
         <h2>Reitec Serviços de Manutenção Predial.</h2>
         <p>
-          Reitec - Empresa de serviços de manutenção predial, atendimento em
-          Campo Grande - MS.
+          Melhoria contínua é um fator que a Reitec Serviços incorpora como um
+          de seus principais objetivos!
         </p>
       </div>
     </div>
