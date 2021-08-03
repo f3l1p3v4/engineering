@@ -19,7 +19,7 @@
 .toggle-button__line {
   width: 22px;
   height: 3px;
-  background: var(--_color_0);
+  background: var(--_color_1);
 }
 
 @media (min-width: 768px) {
