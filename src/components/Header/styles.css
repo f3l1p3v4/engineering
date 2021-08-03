@@ -3,7 +3,6 @@ header {
   margin: 0 auto;
   padding: 0;
   top: 0;
-  background: #e4e4e4;
 }
 
 header .navbar {
@@ -42,15 +41,14 @@ header .navbar .navbar-menu ul li {
 header .navbar .navbar-menu ul li .navbar-contact {
   text-decoration: none;
   width: 200px;
-  padding: 10px;
-  color: var(--_color_0);
+  padding: 5px;
   display: flex;
   align-items: center;
   transition: all 0.3s ease-in-out;
 }
 
 header .navbar .navbar-menu ul li .navbar-contact svg {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   margin-right: 10px;
   color: var(--_color_3);
 }
@@ -98,7 +96,7 @@ header .sub-navbar .sub-navbar-menu ul li a {
 }
 
 header .sub-navbar .sub-navbar-menu ul li:hover {
-  background: #0594cd;
+  background: var(--_color_3-2);
 }
 
 header .sub-navbar .sub-navbar-menu .sub-navbar-icon {

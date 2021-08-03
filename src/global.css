@@ -8,8 +8,10 @@
   --_color_0: #ffffff;
   --_color_1: #1e1d1d;
   --_color_2: #999999;
-  --_color_4: #efff00;
-  --_color_3: #08b3f8;
+  --_color_3: #e49d00;
+  --_color_3-2: #c38500;
+  --_color_4: #08b3f8;
+  --_background: #e4e4e4;
 }
 
 html {
@@ -26,7 +28,7 @@ html {
 body {
   font: 400 14px Roboto, sans-serif;
   -webkit-font-smoothing: antialiased;
-  background: #ffffff;
+  background: var(--_background);
 }
 
 input,
