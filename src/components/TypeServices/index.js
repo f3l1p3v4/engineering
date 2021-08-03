@@ -3,6 +3,8 @@ import React from "react";
 import cleaning from "../../assets/services/cleaning.png";
 import generator from "../../assets/services/generator.png";
 import climate from "../../assets/services/climate.png";
+import battery from "../../assets/services/battery.png";
+import civil from "../../assets/services/civil.png";
 
 import "./styles.css";
 
@@ -62,7 +64,7 @@ const TypeServices = () => {
 
         <div className="type-service-container">
           <div className="type-service-img">
-            <img src={generator} alt="Gerador" />
+            <img src={battery} alt="Bateria" />
           </div>
           <div className="type-service-title">
             <h2>Implantação e manutenção de sistemas de energia AC/DC</h2>
@@ -88,7 +90,7 @@ const TypeServices = () => {
             </div>
           </div>
           <div className="type-service-img">
-            <img src={cleaning} alt="Limpeza" />
+            <img src={civil} alt="Civil" />
           </div>
         </div>
       </section>
