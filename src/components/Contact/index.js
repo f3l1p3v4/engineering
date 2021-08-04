@@ -44,7 +44,7 @@ export default function Contact() {
         `Olá, meu nome é ${name} gostaria de fazer um orçamento a respeito do serviço (${service})`
       );
 
-      window.location.replace(`https://wa.me/+5567992656801?text=${message}`);
+      window.location.replace(`https://wa.me/+556798218-3109?text=${message}`);
 
       setName("");
       setService("");

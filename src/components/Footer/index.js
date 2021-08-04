@@ -1,7 +1,8 @@
 import React, { Component } from "react";
-import { CgOrganisation } from "react-icons/cg";
+//import { CgOrganisation } from "react-icons/cg";
 import { IoLogoWhatsapp } from "react-icons/io";
-import { MdEmail, MdWatchLater, MdLocationOn } from "react-icons/md";
+//import { MdEmail, MdWatchLater, MdLocationOn } from "react-icons/md";
+import { MdEmail } from "react-icons/md";
 import { AiFillPhone } from "react-icons/ai";
 
 import "./styles.css";
@@ -16,7 +17,7 @@ class Footer extends Component {
               <div className="social-icon">
                 <ul>
                   <li>
-                    <a className="info-link" href="tel:+55-67-99265-6801">
+                    <a className="info-link" href="tel:+55-67-3355-2035">
                       <AiFillPhone />
                       <h3>Ligar agora </h3>
                     </a>
@@ -28,7 +29,7 @@ class Footer extends Component {
               <div className="social-icon">
                 <ul>
                   <li>
-                    <a href="https://wa.me/+5567992656801">
+                    <a href="https://wa.me/+5567982183109">
                       <IoLogoWhatsapp />
                       <h3>Enviar um Whats </h3>
                     </a>
@@ -52,13 +53,19 @@ class Footer extends Component {
         </div>
         <div className="footer-content">
           <div className="footer-container">
-            <h3>Contato</h3>
+            <h3>Contatos</h3>
             <div className="footer-infos">
               <ul>
                 <li>
                   <p>
                     <IoLogoWhatsapp />
-                    (67) 123456789
+                    (67) 98218-3109
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <AiFillPhone />
+                    (67) 3355-2035
                   </p>
                 </li>
                 <li>
@@ -70,7 +77,7 @@ class Footer extends Component {
               </ul>
             </div>
           </div>
-          <div className="footer-container">
+          {/*<div className="footer-container">
             <h3>Endereço</h3>
             <div className="footer-infos">
               <ul>
@@ -96,18 +103,18 @@ class Footer extends Component {
                 <li>
                   <p>
                     <MdWatchLater />
-                    De Segunda à Sexta Das 09h às 18h
+                    De Segunda à Sexta Das 06h às 21h
                   </p>
                 </li>
                 <li>
                   <p>
                     <MdWatchLater />
-                    Sábado Das 09h às 14h
+                    Sábado Das 06h às 14h
                   </p>
                 </li>
               </ul>
             </div>
-          </div>
+          </div> */}
         </div>
         <hr />
         <div className="footer-info">

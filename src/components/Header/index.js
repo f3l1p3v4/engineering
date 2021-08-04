@@ -2,7 +2,8 @@ import React, { Component } from "react";
 
 import { MdEmail } from "react-icons/md";
 import { AiFillPhone } from "react-icons/ai";
-import { ImInstagram, ImFacebook2 } from "react-icons/im";
+//import { ImInstagram } from "react-icons/im";
+import { IoLogoInstagram } from "react-icons/io";
 
 import logo from "../../assets/logo.png";
 
@@ -52,7 +53,7 @@ class Header extends Component {
                     <AiFillPhone />
                     <div>
                       <h3>Reinaldo</h3>
-                      <p>(67) 123456789</p>
+                      <p>(67) 98218-3109</p> <p>(67) 3355-2035</p>{" "}
                     </div>
                   </div>
                 </li>
@@ -84,11 +85,9 @@ class Header extends Component {
               </ul>
               <div className="spacer" />
               <div className="sub-navbar-icon">
-                <a href="www.google.com">
-                  <ImInstagram />
-                </a>
-                <a href="www.google.com">
-                  <ImFacebook2 />
+                <a href="https://instagram.com/reitecsmp">
+                  <IoLogoInstagram />
+                  @reitecsmp
                 </a>
               </div>
             </div>

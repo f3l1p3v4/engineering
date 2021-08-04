@@ -28,7 +28,7 @@ const MenuOverlay = (props) => {
             <AiFillPhone />
             <div>
               <h3>Reinaldo</h3>
-              <p>(67) 123456789</p>
+              <p>(67) 98218-3109</p>
             </div>
           </a>
         </li>
@@ -37,7 +37,7 @@ const MenuOverlay = (props) => {
             <MdEmail />
             <div>
               <h3>Email</h3>
-              <p>teste@gmail.com</p>
+              <p>reinaldoeng@yahoo.com</p>
             </div>
           </a>
         </li>
