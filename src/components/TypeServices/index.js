@@ -15,7 +15,7 @@ const TypeServices = () => {
       <section>
         <div className="type-service-container">
           <div className="type-service-title" style={{ textAlign: "right" }}>
-            <h2>Limpeza e conservação predial</h2>
+            <h2>Jardinagem, limpeza e conservação predial</h2>
             <p>
               Manter um ambiente limpo e organizado permite transmitir uma
               imagem positiva para todos os que ferquentam sua empresa.
