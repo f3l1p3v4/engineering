@@ -29,6 +29,7 @@ const MenuOverlay = (props) => {
             <div>
               <h3>Reinaldo</h3>
               <p>(67) 98218-3109</p>
+              <p>(67) 3355-2035</p>
             </div>
           </a>
         </li>
