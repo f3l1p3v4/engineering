@@ -62,7 +62,7 @@ class Header extends Component {
                     <MdEmail />
                     <div>
                       <h3>Email</h3>
-                      <p>reinaldoeng@yahoo.com</p>
+                      <p>reitecs@yahoo.com</p>
                     </div>
                   </div>
                 </li>

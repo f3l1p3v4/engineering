@@ -41,7 +41,7 @@ class Footer extends Component {
               <div className="social-icon">
                 <ul>
                   <li>
-                    <a href="mailto:reinaldoeng@yahoo.com?subject=">
+                    <a href="mailto:reitecs@yahoo.com?subject=">
                       <MdEmail />
                       <h3>Enviar </h3>
                     </a>
@@ -71,7 +71,7 @@ class Footer extends Component {
                 <li>
                   <p>
                     <MdEmail />
-                    reinaldoeng@yahoo.com
+                    reitecs@yahoo.com
                   </p>
                 </li>
               </ul>
