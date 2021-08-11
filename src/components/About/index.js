@@ -6,7 +6,7 @@ const About = () => (
   <section id="about">
     <div className="about-container">
       <div className="about-profile">
-        <h2>Reitec Serviços de Manutenção Predial.</h2>
+        <h2>Reitec Serviços.</h2>
         <p>
           Melhoria contínua é um fator que a Reitec Serviços incorpora como um
           de seus principais objetivos!
