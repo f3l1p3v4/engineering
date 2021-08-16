@@ -18,7 +18,7 @@ const TypeServices = () => {
             <h2>Jardinagem, limpeza e conservação predial</h2>
             <p>
               Manter um ambiente limpo e organizado permite transmitir uma
-              imagem positiva para todos os que ferquentam sua empresa.
+              imagem positiva para todos os que frequentam sua empresa.
             </p>
             <div>
               <a href="/#contact">FAZER ORÇAMENTO</a>
