@@ -82,7 +82,7 @@ const TypeServices = () => {
           <div className="type-service-title" style={{ textAlign: "right" }}>
             <h2>Serviços de manutenção e reparos civil</h2>
             <p>
-              Pintura, trocas de fechaduras, serralheria, marcenaria, elétrica,
+              Pintura, Drywall, trocas de fechaduras, serralheria, marcenaria, elétrica,
               hidráulica e reforma predial.
             </p>
             <div>
