@@ -1,6 +1,6 @@
 import React from "react";
 
-import cleaning from "../../assets/services/cleaning.png";
+import solar from "../../assets/services/solar.png";
 import generator from "../../assets/services/generator.png";
 import climate from "../../assets/services/climate.png";
 import battery from "../../assets/services/battery.png";
@@ -15,17 +15,31 @@ const TypeServices = () => {
       <section>
         <div className="type-service-container">
           <div className="type-service-title" style={{ textAlign: "right" }}>
-            <h2>Jardinagem, limpeza e conservação predial</h2>
-            <p>
-              Manter um ambiente limpo e organizado permite transmitir uma
-              imagem positiva para todos os que frequentam sua empresa.
-            </p>
+            {/*
+              <h2>Jardinagem, limpeza e conservação predial</h2>
+                <p>
+                  Manter um ambiente limpo e organizado permite transmitir uma
+                  imagem positiva para todos os que frequentam sua empresa.
+                </p>
+                <div>
+                  <a href="/#contact">FAZER ORÇAMENTO</a>
+                </div>
+              </div>
+              <div className="type-service-img">
+                <img src={cleaning} alt="Limpeza" />
+              </div>
+            */}
+            <h2>
+              Elaboração e execução de projetos de sistemas de energia solar
+              fotovoltaico
+            </h2>
+            <p>Microgeração e Minegeração.</p>
             <div>
               <a href="/#contact">FAZER ORÇAMENTO</a>
             </div>
           </div>
           <div className="type-service-img">
-            <img src={cleaning} alt="Limpeza" />
+            <img src={solar} alt="Placas Solares" />
           </div>
         </div>
 
@@ -79,11 +93,25 @@ const TypeServices = () => {
         </div>
 
         <div className="type-service-container">
-          <div className="type-service-title" style={{ textAlign: "right" }}>
+          {/*<div className="type-service-title" style={{ textAlign: "right" }}>
             <h2>Serviços de manutenção e reparos civil</h2>
             <p>
-              Pintura, Drywall, trocas de fechaduras, serralheria, marcenaria, elétrica,
-              hidráulica e reforma predial.
+              Pintura, Drywall, trocas de fechaduras, serralheria, marcenaria,
+              elétrica, hidráulica e reforma predial.
+            </p>
+            <div>
+              <a href="/#contact">FAZER ORÇAMENTO</a>
+            </div>
+          </div>
+          <div className="type-service-img">
+            <img src={civil} alt="Civil" />
+          </div>*/}
+          <div className="type-service-title" style={{ textAlign: "right" }}>
+            <h2>Serviços de reforma manutenção predial</h2>
+            <p>
+              Serviços de reforma predial em geral, como manutenção de telhados
+              e fachadas, pintura, revestimentos, elétrica, blindex, drywall,
+              toldos de policarbonato, calhas e rufos, entre outros.
             </p>
             <div>
               <a href="/#contact">FAZER ORÇAMENTO</a>
