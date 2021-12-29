@@ -107,7 +107,7 @@ const TypeServices = () => {
             <img src={civil} alt="Civil" />
           </div>*/}
           <div className="type-service-title" style={{ textAlign: "right" }}>
-            <h2>Serviços de reforma manutenção predial</h2>
+            <h2>Serviços de reforma e manutenção predial</h2>
             <p>
               Serviços de reforma predial em geral, como manutenção de telhados
               e fachadas, pintura, revestimentos, elétrica, blindex, drywall,
