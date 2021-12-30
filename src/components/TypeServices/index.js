@@ -33,7 +33,7 @@ const TypeServices = () => {
               Elaboração e execução de projetos de sistemas de energia solar
               fotovoltaico
             </h2>
-            <p>Microgeração e Minegeração.</p>
+            <p>Microgeração e Minigeração.</p>
             <div>
               <a href="/#contact">FAZER ORÇAMENTO</a>
             </div>
@@ -83,7 +83,7 @@ const TypeServices = () => {
           <div className="type-service-title">
             <h2>Implantação e manutenção de sistemas de energia AC/DC</h2>
             <p>
-              Instalação de fontes de corrente continua, bancos de baterias,
+              Instalação de fontes de corrente contínua, bancos de baterias,
               QDCA's, QDCC's, inversores e nobreak's.
             </p>
             <div>
