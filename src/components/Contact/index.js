@@ -7,12 +7,12 @@ export default function Contact() {
   const [name, setName] = useState("");
 
   const listServices = [
-    { id: 1, name: "Selecione um serviço" },
+    { id: 1, name: "Elaboração e execução de projetos de sistemas de energia solar fotovoltaico" },
     { id: 2, name: "Limpeza e conservação predial" },
     { id: 3, name: "Manutenção de grupos geradores" },
     { id: 4, name: "Manutenção em sistemas de climatização" },
     { id: 5, name: "Implantação e manutenção de sistemas de energia AC/DC" },
-    { id: 6, name: "Serviços de manutenção e reparos civil" }
+    { id: 6, name: "Serviços de reforma e manutenção predial" }
   ];
 
   const handleSubmit = (e) => {
