@@ -2,7 +2,6 @@ import React, { Component } from "react";
 
 import { MdEmail } from "react-icons/md";
 import { AiFillPhone } from "react-icons/ai";
-//import { ImInstagram } from "react-icons/im";
 import { IoLogoInstagram } from "react-icons/io";
 
 import logo from "../../assets/logo.png";
@@ -42,7 +41,7 @@ class Header extends Component {
           <nav className="navbar">
             <div>
               <a href="/" className="logo-main">
-                <img src={logo} alt="Logo DevLoad" className="logo" />
+                <img src={logo} alt="Logo Reitec" className="logo" />
               </a>
             </div>
             <div className="spacer" />
