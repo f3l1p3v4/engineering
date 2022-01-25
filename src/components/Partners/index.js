@@ -14,24 +14,16 @@ class Partners extends Component {
         <h1>Parceiros</h1>
         <ul>
           <li>
-            <a href="/">
-              <img src={rfnsa} alt="Placas Solares" />
-            </a>
+            <img src={rfnsa} alt="Placas Solares" />
           </li>
           <li>
-            <a href="/#type-service">
-              <img src={msdigital} alt="Placas Solares" />
-            </a>
+            <img src={msdigital} alt="Placas Solares" />
           </li>
           <li>
-            <a href="/#contact">
-              <img src={oggi} alt="Placas Solares" />
-            </a>
+            <img src={oggi} alt="Placas Solares" />
           </li>
           <li>
-            <a href="/#contact">
-              <img src={sanches} alt="Placas Solares" />
-            </a>
+            <img src={sanches} alt="Placas Solares" />
           </li>
         </ul>
       </div>
