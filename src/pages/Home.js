@@ -3,6 +3,7 @@ import React, { Component } from "react";
 import Header from "../components/Header";
 import About from "../components/About";
 import TypeServices from "../components/TypeServices";
+import Partners from "../components/Partners";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 
@@ -13,6 +14,7 @@ class HomePage extends Component {
         <Header />
         <About />
         <TypeServices />
+        <Partners />
         <Contact />
         <Footer />
       </>

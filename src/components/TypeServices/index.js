@@ -1,6 +1,8 @@
 import React from "react";
 
 import solar from "../../assets/services/solar.png";
+import camera from "../../assets/services/camera.png";
+import evaporative from "../../assets/services/evaporative.png";
 import generator from "../../assets/services/generator.png";
 import climate from "../../assets/services/climate.png";
 import battery from "../../assets/services/battery.png";
@@ -45,6 +47,32 @@ const TypeServices = () => {
 
         <div className="type-service-container">
           <div className="type-service-img">
+            <img src={camera} alt="Gerador" />
+          </div>
+          <div className="type-service-title">
+            <h2>Sistemas de CFTV</h2>
+            <p>Venda, aluguel, instalação, monitoramento e manutenção.</p>
+            <div>
+              <a href="/#contact">FAZER ORÇAMENTO</a>
+            </div>
+          </div>
+        </div>
+
+        <div className="type-service-container">
+          <div className="type-service-title" style={{ textAlign: "right" }}>
+            <h2>Climatizadores evaporativo</h2>
+            <p>Venda, instalação e manutenção.</p>
+            <div>
+              <a href="/#contact">FAZER ORÇAMENTO</a>
+            </div>
+          </div>
+          <div className="type-service-img">
+            <img src={evaporative} alt="Climatização Evaporativa" />
+          </div>
+        </div>
+
+        <div className="type-service-container">
+          <div className="type-service-img">
             <img src={generator} alt="Gerador" />
           </div>
           <div className="type-service-title">
@@ -61,12 +89,8 @@ const TypeServices = () => {
 
         <div className="type-service-container">
           <div className="type-service-title" style={{ textAlign: "right" }}>
-            <h2>Manutenção em sistemas de climatização</h2>
-            <p>
-              A manutenção e a higienização de seu ar-condicionado é muito
-              importante para evitar problemas desnecessários e garantir o
-              aumento da vida útil do seu equipamento.
-            </p>
+            <h2>Sistemas de climatização</h2>
+            <p>Venda, instalação e manutenção.</p>
             <div>
               <a href="/#contact">FAZER ORÇAMENTO</a>
             </div>
