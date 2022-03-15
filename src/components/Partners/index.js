@@ -4,6 +4,9 @@ import rfnsa from "../../assets/partners/rfnsa.png";
 import msdigital from "../../assets/partners/msdigital.png";
 import oggi from "../../assets/partners/oggi.png";
 import sanches from "../../assets/partners/sanches.png";
+import transpetro from "../../assets/partners/transpetro.png";
+import janny from "../../assets/partners/janny.png";
+import acelera from "../../assets/partners/acelera.png";
 
 import "./styles.css";
 
@@ -24,6 +27,15 @@ class Partners extends Component {
           </li>
           <li>
             <img src={sanches} alt="Placas Solares" />
+          </li>
+          <li>
+            <img src={transpetro} alt="Placas Solares" />
+          </li>
+          <li>
+            <img src={janny} alt="Placas Solares" />
+          </li>
+          <li>
+            <img src={acelera} alt="Placas Solares" />
           </li>
         </ul>
       </div>
