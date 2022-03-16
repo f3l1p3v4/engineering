@@ -32,9 +32,6 @@ class Partners extends Component {
             <img src={transpetro} alt="Placas Solares" />
           </li>
           <li>
-            <img src={janny} alt="Placas Solares" />
-          </li>
-          <li>
             <img src={acelera} alt="Placas Solares" />
           </li>
         </ul>
