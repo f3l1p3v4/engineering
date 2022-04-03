@@ -7,6 +7,8 @@ import generator from "../../assets/services/generator.png";
 import climate from "../../assets/services/climate.png";
 import battery from "../../assets/services/battery.png";
 import civil from "../../assets/services/civil.png";
+import solder from "../../assets/services/solder.png";
+import facades from "../../assets/services/facades.png";
 
 import "./styles.css";
 
@@ -143,6 +145,35 @@ const TypeServices = () => {
           </div>
           <div className="type-service-img">
             <img src={civil} alt="Civil" />
+          </div>
+        </div>
+
+        <div className="type-service-container">
+          <div className="type-service-img">
+            <img src={solder} alt="Bateria" />
+          </div>
+          <div className="type-service-title">
+            <h2>Serviços de Caldeiraria</h2>
+            <p>
+              Os serviços de caldeiraria são a confecção, manutenção, eleboração
+              e reparos com soldas e instrumentos metálicos.
+            </p>
+            <div>
+              <a href="/#contact">FAZER ORÇAMENTO</a>
+            </div>
+          </div>
+        </div>
+
+        <div className="type-service-container">
+          <div className="type-service-title" style={{ textAlign: "right" }}>
+            <h2>Sistemas de climatização</h2>
+            <p>Venda, instalação e manutenção.</p>
+            <div>
+              <a href="/#contact">FAZER ORÇAMENTO</a>
+            </div>
+          </div>
+          <div className="type-service-img">
+            <img src={facades} alt="Climatização" />
           </div>
         </div>
       </section>

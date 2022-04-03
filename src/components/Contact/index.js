@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 
+import { IoLogoWhatsapp } from "react-icons/io";
+
 import "./styles.css";
 
 export default function Contact() {
@@ -17,7 +19,8 @@ export default function Contact() {
     { id: 4, name: "Manutenção de grupos geradores" },
     { id: 5, name: "Sistemas de climatização" },
     { id: 6, name: "Implantação e manutenção de sistemas de energia AC/DC" },
-    { id: 7, name: "Serviços de reforma e manutenção predial" }
+    { id: 7, name: "Serviços de reforma e manutenção predial" },
+    { id: 8, name: "Serviços de caldeiraria" }
   ];
 
   const handleSubmit = (e) => {
@@ -83,6 +86,7 @@ export default function Contact() {
               />
 
               <button className="button" type="submit">
+                <IoLogoWhatsapp />
                 Enviar
               </button>
             </form>
