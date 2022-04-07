@@ -155,7 +155,7 @@ const TypeServices = () => {
           <div className="type-service-title">
             <h2>Serviços de Caldeiraria</h2>
             <p>
-              Os serviços de confecção, manutenção, eleboração
+              Serviços de confecção, manutenção, eleboração
               e reparos com soldas e instrumentos metálicos.
             </p>
             <div>
