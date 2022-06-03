@@ -137,7 +137,7 @@ const TypeServices = () => {
             <p>
               Serviços de reforma predial em geral, como manutenção de telhados
               e fachadas, pintura, revestimentos, elétrica, blindex, drywall,
-              toldos de policarbonato, calhas e rufos, entre outros.
+              calhas e rufos, entre outros.
             </p>
             <div>
               <a href="/#contact">FAZER ORÇAMENTO</a>
@@ -155,8 +155,8 @@ const TypeServices = () => {
           <div className="type-service-title">
             <h2>Serviços de Caldeiraria</h2>
             <p>
-              Serviços de confecção, manutenção, eleboração
-              e reparos com soldas e instrumentos metálicos.
+              Serviços de confecção, manutenção, eleboração e reparos com soldas
+              e instrumentos metálicos.
             </p>
             <div>
               <a href="/#contact">FAZER ORÇAMENTO</a>
@@ -164,7 +164,7 @@ const TypeServices = () => {
           </div>
         </div>
 
-        <div className="type-service-container">
+        {/*<div className="type-service-container">
           <div className="type-service-title" style={{ textAlign: "right" }}>
             <h2>Fachadas em ACM</h2>
             <p>Instalação de fachadas em ACM</p>
@@ -175,7 +175,7 @@ const TypeServices = () => {
           <div className="type-service-img">
             <img src={facades} alt="Climatização" />
           </div>
-        </div>
+        </div>*/}
       </section>
     </div>
   );
