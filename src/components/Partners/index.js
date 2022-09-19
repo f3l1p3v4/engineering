@@ -8,6 +8,7 @@ import oggi from "../../assets/partners/oggi.png";
 import transpetro from "../../assets/partners/transpetro.png";
 import acelera from "../../assets/partners/acelera.png";
 import paratinet from "../../assets/partners/paratinet.png";
+import fenix from "../../assets/partners/fenix.png";
 
 import "./styles.css";
 
@@ -40,6 +41,9 @@ class Partners extends Component {
           </li>
           <li>
             <img src={acelera} alt="Acelera logo empresa" />
+          </li>
+           <li>
+            <img src={fenix} alt="Fenix logo empresa" />
           </li>
         </ul>
       </div>
