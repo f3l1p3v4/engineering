@@ -31,6 +31,9 @@ class Partners extends Component {
             <img src={alt} alt="alt logo empresa" />
           </li>
           <li>
+            <img src={acelera} alt="Acelera logo empresa" />
+          </li>
+          <li>
             <img src={oggi} alt="Oggi logo empresa" />
           </li>
           <li>
@@ -38,9 +41,6 @@ class Partners extends Component {
           </li>
           <li>
             <img src={paratinet} alt="Paratinet logo empresa" />
-          </li>
-          <li>
-            <img src={acelera} alt="Acelera logo empresa" />
           </li>
            <li>
             <img src={fenix} alt="Fenix logo empresa" />
