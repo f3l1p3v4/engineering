@@ -2,8 +2,9 @@ import React, { Component } from "react";
 
 import rfnsa from "../../assets/partners/rfnsa.png";
 import msdigital from "../../assets/partners/msdigital.png";
+import brdigital from "../../assets/partners/brdigital.png";
+import alt from "../../assets/partners/alt.png";
 import oggi from "../../assets/partners/oggi.png";
-import sanches from "../../assets/partners/sanches.png";
 import transpetro from "../../assets/partners/transpetro.png";
 import acelera from "../../assets/partners/acelera.png";
 import paratinet from "../../assets/partners/paratinet.png";
@@ -14,7 +15,7 @@ class Partners extends Component {
   render() {
     return (
       <div className="partners">
-        <h1>Parceiros</h1>
+        <h1>Clientes</h1>
         <ul>
           <li>
             <img src={rfnsa} alt="Rfnsa logo empresa" />
@@ -23,19 +24,22 @@ class Partners extends Component {
             <img src={msdigital} alt="msdigital logo empresa" />
           </li>
           <li>
-            <img src={oggi} alt="Oggi logo empresa" />
+            <img src={brdigital} alt="brdigital logo empresa" />
           </li>
           <li>
-            <img src={sanches} alt="Sanches logo empresa" />
+            <img src={alt} alt="alt logo empresa" />
+          </li>
+          <li>
+            <img src={oggi} alt="Oggi logo empresa" />
           </li>
           <li>
             <img src={transpetro} alt="Transpetro logo empresa" />
           </li>
           <li>
-            <img src={acelera} alt="Acelera logo empresa" />
+            <img src={paratinet} alt="Paratinet logo empresa" />
           </li>
           <li>
-            <img src={paratinet} alt="Paratinet logo empresa" />
+            <img src={acelera} alt="Acelera logo empresa" />
           </li>
         </ul>
       </div>
