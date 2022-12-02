@@ -53,7 +53,7 @@ const TypeServices = () => {
           </div>
           <div className="type-service-title">
             <h2>Sistemas de CFTV</h2>
-            <p>Venda, aluguel, instalação, monitoramento e manutenção.</p>
+            <p>Venda, instalação e manutenção.</p>
             <div>
               <a href="/#contact">FAZER ORÇAMENTO</a>
             </div>
@@ -80,8 +80,7 @@ const TypeServices = () => {
           <div className="type-service-title">
             <h2>Manutenção de grupos geradores</h2>
             <p>
-              O bom funcionamento de seu grupo gerador é fundamental para
-              garantir o fornecimento de energia confiável.
+              Venda, instalação e manutenção.
             </p>
             <div>
               <a href="/#contact">FAZER ORÇAMENTO</a>
@@ -92,7 +91,7 @@ const TypeServices = () => {
         <div className="type-service-container">
           <div className="type-service-title" style={{ textAlign: "right" }}>
             <h2>Sistemas de climatização</h2>
-            <p>Venda, instalação e manutenção.</p>
+            <p>Instalação e manutenção.</p>
             <div>
               <a href="/#contact">FAZER ORÇAMENTO</a>
             </div>
