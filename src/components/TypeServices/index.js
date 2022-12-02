@@ -78,7 +78,7 @@ const TypeServices = () => {
             <img src={generator} alt="Gerador" />
           </div>
           <div className="type-service-title">
-            <h2>Manutenção de grupos geradores</h2>
+            <h2>Grupos geradores</h2>
             <p>
               Venda, instalação e manutenção.
             </p>
