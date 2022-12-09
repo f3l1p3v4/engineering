@@ -8,7 +8,7 @@ import logo from "../../assets/logo.png";
 
 import "./styles.css";
 
-import Drawer from "../Menu/Drawertogglebutton";
+import Drawer from "../Menu/Drawertogglebutton";  
 import MenuOverlay from "../Menu/MenuOverlay";
 
 class Header extends Component {
@@ -61,7 +61,7 @@ class Header extends Component {
                     <MdEmail />
                     <div>
                       <h3>Email</h3>
-                      <p>reitecs@yahoo.com</p>
+                      <p>reitecengenharia@yahoo.com</p>
                     </div>
                   </div>
                 </li>

@@ -38,7 +38,7 @@ const MenuOverlay = (props) => {
             <MdEmail />
             <div>
               <h3>Email</h3>
-              <p>reinaldoeng@yahoo.com</p>
+              <p>reitecengenharia@yahoo.com</p>
             </div>
           </a>
         </li>
