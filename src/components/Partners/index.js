@@ -9,6 +9,7 @@ import transpetro from "../../assets/partners/transpetro.png";
 import acelera from "../../assets/partners/acelera.png";
 import paratinet from "../../assets/partners/paratinet.png";
 import fenix from "../../assets/partners/fenix.png";
+import claro from "../../assets/partners/claro.png";
 
 import "./styles.css";
 
@@ -44,6 +45,9 @@ class Partners extends Component {
           </li>
            <li>
             <img src={fenix} alt="Fenix logo empresa" />
+          </li>
+             <li>
+            <img src={claro} alt="Claro logo empresa" />
           </li>
         </ul>
       </div>
