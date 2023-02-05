@@ -9,6 +9,7 @@ import battery from "../../assets/services/battery.png";
 import civil from "../../assets/services/civil.png";
 import solder from "../../assets/services/solder.png";
 import facades from "../../assets/services/facades.png";
+import fibra from "../../assets/services/fibra.png";
 
 import "./styles.css";
 
@@ -17,6 +18,20 @@ const TypeServices = () => {
     <div id="type-service">
       <h1>Serviços</h1>
       <section>
+
+        <div className="type-service-container">
+          <div className="type-service-img">
+            <img src={fibra} alt="Fibra Optica" />
+          </div>
+          <div className="type-service-title">
+            <h2>Serviço de infraestrutura em fibra óptica</h2>
+            <p>Implantação e manutenção de redes de fibra óptica.</p>
+            <div>
+              <a href="/#contact">FAZER ORÇAMENTO</a>
+            </div>
+          </div>
+        </div>
+
         <div className="type-service-container">
           <div className="type-service-title" style={{ textAlign: "right" }}>
             {/*
