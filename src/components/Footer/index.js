@@ -120,7 +120,7 @@ class Footer extends Component {
         <div className="footer-info">
           <p>© 2021 Reitec Engenharia - Todos direitos reservados.</p>
           <p>
-            Desenvolvido por <a href="https://felipevaldez.netlify.app">FV</a>
+            Desenvolvido por <a href="https://fvsolucoes.site">FV</a>
           </p>
         </div>
       </div>
